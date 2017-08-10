@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta http-equiv="Content-Security-Policy" content="default-src * data: https:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
 
@@ -20,7 +20,7 @@
 		<ons-template id="list.html">
 		  <ons-page id="list-page">
 		    <ons-toolbar>
-		      <div class="center" data-i18n="list.header">Search Restaurant</div>
+		      <div class="center" data-i18n="list.header"></div>
 		    </ons-toolbar>
 		
 		    <div class="content" style="text-align: center">
@@ -30,7 +30,7 @@
 		        </ons-list-header>
 		        <ons-list-item>
 		          <div class="center">
-		            <ons-button id="getShops" data-i18n="list.get">Get Restaurant</ons-button>
+		            <ons-button id="getShops" data-i18n="list.get"></ons-button>
 		          </div>
 		        </ons-list-item>
 		        <div id="shops">
@@ -43,15 +43,15 @@
 		<ons-template id="detail.html">
 		  <ons-page id="detail-page">
 		    <ons-toolbar>
-		      <div class="left"><ons-back-button data-i18n="detail.back">Back</ons-back-button></div>
-		      <div class="center shop-name" data-i18n="detail.header">Restaurant Detail</div>
+		      <div class="left"><ons-back-button data-i18n="detail.back"></ons-back-button></div>
+		      <div class="center shop-name" data-i18n="detail.header"></div>
 		    </ons-toolbar>
 		
 		    <div class="content" id="shop-info" style="text-align: center">
 		      <ons-list class="shop-info-list">
-		        <ons-list-header data-i18n="detail.restaurant.name">Name</ons-list-header>
+		        <ons-list-header data-i18n="detail.restaurant.name"></ons-list-header>
 		        <ons-list-item><span id="shop-name"></span></ons-list-item>
-		        <ons-list-header data-i18n="detail.restaurant.address">住所</ons-list-header>
+		        <ons-list-header data-i18n="detail.restaurant.address"></ons-list-header>
 		        <ons-list-item id="shop-address"></ons-list-item>
 		      </ons-list>
 		    </div>

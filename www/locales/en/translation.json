@@ -1,6 +1,14 @@
 {
-	"list": {
+  "list": {
 		"header": "Search Restaurant",
 		"get": "Get Restaurant"		
+	},
+	"detail": {
+		"back": "Back",
+		"header": "Restaurant Detail",
+		"restaurant": {
+			"name": "Name",
+			"address": "Address"
+		}
 	}
 }
