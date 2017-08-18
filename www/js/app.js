@@ -56,10 +56,10 @@ document.addEventListener('init', function(event) {
     });
     
     // レストラン名をタップした時のイベント
-    $(document).on("tap", ".shop span", (e) => {
+    $(document).on("tap", ".shop", (e) => {
     	
       // レストランデータを特定
-      var index = $(e.target).data("shop-id");
+      var index = $(e.target).find("span").data("shop-id");
       var shop = shops[index];
       
       

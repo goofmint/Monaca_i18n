@@ -1,14 +1,14 @@
 {
-		"list": {
-			"header": "レストラン検索",
-			"get": "レストラン取得"
-		},
-		"detail": {
-			"back": "戻る",
-			"header": "レストラン詳細",
-			"restaurant": {
-				"name": "名前",
-				"address": "住所"
-			}
+	"list": {
+		"header": "レストラン検索",
+		"get": "レストラン取得"
+	},
+	"detail": {
+		"back": "戻る",
+		"header": "レストラン詳細",
+		"restaurant": {
+			"name": "名前",
+			"address": "住所"
 		}
+	}
 }
